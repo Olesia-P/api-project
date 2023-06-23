@@ -22,8 +22,8 @@
 
         .catFact {
             position: absolute;
-            top: 10rem;
-            width: 40rem;
+            top: 7rem;
+            width: 25rem;
         }
     }
 
@@ -40,9 +40,10 @@
 
         .showFactBtn {
             position: absolute;
-            top: 9.5rem;
-            left: -1rem;
+            top: 9rem;
+            left: -1.5rem;
             cursor: pointer;
+            transform: rotate(-10deg);
 
             &:hover {
                 text-decoration: underline;
