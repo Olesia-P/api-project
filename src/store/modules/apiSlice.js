@@ -18,6 +18,8 @@ export const catsFactsApi = createApi({
 
 export const {
   useGetRandomCatFactQuery,
+  useLazyGetRandomCatFactQuery,
+
   useGetRandomCatFactWithMaxLengthQuery,
   useGetRandomCatFactsLimitedListQuery,
 } = catsFactsApi;
