@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .catFactContainer {
+
+        font-size: 20pt;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        img {
+            width: 40rem;
+            filter: drop-shadow(6px 1px 8px rgba(0, 0, 0, 0.4));
+            transform: translateY(-3rem);
+            filter: contrast(110%);
+            // filter: brightness(90%);
+        }
+
+        .catFact {
+            position: absolute;
+            top: 10rem;
+            width: 40rem;
+        }
+    }
+
+    .stickersContainer {
+        width: 100%;
+        position: relative;
+        font-size: 30pt;
+
+        img {
+            width: 45rem;
+            transform: translate(-4rem, -3rem);
+
+        }
+
+        .showFactBtn {
+            position: absolute;
+            top: 9.5rem;
+            left: -1rem;
+            cursor: pointer;
+
+            &:hover {
+                text-decoration: underline;
+            }
+
+        }
+    }
+}
